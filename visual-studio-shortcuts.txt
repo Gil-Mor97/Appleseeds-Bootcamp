@@ -1,0 +1,44 @@
+*** Using extensions ***
+
+
+** KEYBOARD SHORTCUTS **
+*** Wildcards ***
+
+ctrl + p - Find a file from current folder files
+ctrl + shift + p - Find commands using words(i.e. open file, indent lines, open live server... )
+cog wheel on bottom left - (use mouse) Open keyboard shortcut list
+
+*** Navigation ***
+
+ctrl + tab - Move between tabs
+ctrl + shift + f - Find from all files
+ctrl + arrow - Jump to next word
+ctrl + end - Jump to end of file
+shift + end - Select until end of line
+ctrl + shift + end - select until end of file
+
+*** Editing ***
+
+ctrl + a - Choose all text
+ctrl + d - Find the next instance of a word, add a cursor
+ctrl + z - undo
+ctrl + f - find
+ctrl + h - find & replace
+ctrl + shift + z || ctrl + y - redo
+ctrl + shift + k - delete current line
+tab - Add indentation to selection
+
+*** Emmet - Use templates ***
+
+html
+div.container
+div#container
+li*3
+function
+
+*** Browser shortcuts ***
+ctrl + tab - Go to next tab
+ctrl + shift + tab - Go to previous tab
+alt + d - Go to search bar
+ctrl + f - Search for text
+ctrl + Enter - Like clicking the mouse
