@@ -1,0 +1,12 @@
+body{
+  direction: rtl;
+}
+
+a{
+  display: inline;
+}
+
+img{
+  height: 200px;
+
+}

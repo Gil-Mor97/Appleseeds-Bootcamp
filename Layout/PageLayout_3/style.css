@@ -1,0 +1,27 @@
+body{
+  direction: rtl;
+}
+
+#sidebar, #main{
+  display: inline
+}
+
+#sidebar{
+  width: 5%;
+  float: right;
+  margin: 5% 5%;
+}
+
+#sidebar a{
+  display: block;
+}
+
+#main{
+  width: 75%;
+  float: left;
+  margin: 5%;
+}
+
+#main img{
+  width: 50%;
+}
