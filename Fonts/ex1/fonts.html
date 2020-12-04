@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<h1>my magazine</h1>
+	<nav>
+		<ul>
+			<li><a href="#" onclick="toggleArticle(1)">article 1</a></li>
+			<li><a href="#" onclick="toggleArticle(2)">article 2</a></li>
+			<li><a href="#" onclick="toggleArticle(3)">article 3</a></li>
+		</ul>
+	</nav>
+	<div class="article" id="art1">
+		<h2>
+			מאמר 1
+		</h2>
+		<h3>
+			כותרת משנה איטלקית 1
+		</h3>
+		<p>
+			Many many English
+		</p>
+	</div>
+	<div class="article" id="art2">
+		<h2>
+			מאמר 2
+		</h2>
+		<h3>
+			כותרת משנה איטלקית 2
+		</h3>
+		<p>
+			Many many English
+		</p>
+	</div>
+	<div class="article" id="art3">
+		<h2>
+			מאמר 3
+		</h2>
+		<h3>
+			כותרת משנה איטלקית 3
+		</h3>
+		<p>
+			Many many English
+		</p>
+	</div>
+	<script>
+		function hideAll() {
+			var i;
+			for (i = 1; i <= 3; i++) {
+				var myArt = document.getElementById("art" + i);
+				myArt.style.display = "none";
+			}
+		}
+
+		function toggleArticle(artNum) {
+			hideAll();
+			var myArt = document.getElementById("art" + artNum);
+			if (myArt.style.display === 'none') {
+				myArt.style.display = "block"
+			}
+			else {
+				myArt.style.display = "none"
+			}
+		}
+	</script>
+</body>
+
+</html>

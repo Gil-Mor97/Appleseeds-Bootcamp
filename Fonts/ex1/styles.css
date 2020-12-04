@@ -1,0 +1,47 @@
+body {
+
+}
+
+h1{
+  font-size: 48px;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+  width: 100%;
+  background-color: black;
+}
+
+nav ul{
+  display: flex;
+}
+
+nav li{
+  width: 150px;
+  list-style: none;
+  padding: 5px;
+  text-align: center;
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Indie Flower', cursive;
+}
+
+.article {
+  display: none;
+  text-align: center;
+}
+
+.article h2{
+  font: Arial 36px bold;
+}
+
+.article h3{
+  font: Tahoma 20px italic;
+}
+
+.article p{
+  font-family: 'Indie Flower', cursive;
+}
